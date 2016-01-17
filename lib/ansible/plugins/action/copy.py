@@ -268,7 +268,8 @@ class ActionModule(ActionBase):
                     dict(
                         src=source_rel,
                         dest=dest,
-                        original_basename=source_rel
+                        original_basename=source_rel,
+                        state='file'
                     )
                 )
 
